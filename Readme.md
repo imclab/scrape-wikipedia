@@ -1,50 +1,19 @@
 # Scrape Wikipedia
 
-## Installation
+Just the start of scripts to scrape out different elements from a wikipedia page.
 
-node.js:
+## Installation
 
 ```bash
 npm install scrape-wikipedia
 ```
 
-browser:
-
-```bash
-component install scrape-wikipedia
-```
-
 ## Example
 
 ```js
-var project = require('scrape-wikipedia');
+var wikipedia = require('scrape-wikipedia');
+wikipedia(theHtmlString); // json
 ```
-
-## API
-
-Example API methods.
-
-### .on(event, fn, [capture])
-
-Short description of some method:
-
-```js
-project.on('event', function(e){
-
-});
-```
-
-### .on(event, selector, fn, [capture])
-
-Another description:
-
-```js
-project.on('event', 'a.remove', function(e){
-
-});
-```
-
-## Notes
 
 ## Licence
 
